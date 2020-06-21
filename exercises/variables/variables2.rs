@@ -1,13 +1,18 @@
 // variables2.rs
 // Make me compile! Execute the command `rustlings hint variables2` if you want a hint :)
 
-// I AM NOT DONE
+// I AM DONE
 
-fn main() {
-    let x;
-    if x == 10 {
+fn main()
+{
+    let x:u32=0;
+    
+    if x == 10
+    {
         println!("Ten!");
-    } else {
+    }
+    else
+    {
         println!("Not ten!");
     }
 }
